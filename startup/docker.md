@@ -8,6 +8,6 @@ git pull https://github.com/fahmihamzah84/OnlinePaymentFraud-LambdaArchitecture.
 
 - After that you can setup your docker.
 ```bash
-cd OnlinePaymentFraud-LambdaArchitecture/startup/ && setup_vm.sh
+cd OnlinePaymentFraud-LambdaArchitecture/startup/ && setup_docker.sh
 ```
 
