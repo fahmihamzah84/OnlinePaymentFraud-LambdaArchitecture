@@ -34,13 +34,13 @@ If you already have a Google Cloud account and docker installed, you can skip th
   - [gcloud alternate installation method - Windows](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_1_basics_n_setup/1_terraform_gcp/windows.md#google-cloud-sdk)
 
 - After GCP account created, you can create a [new instances](https://cloud.google.com/compute/docs/instances/create-start-instance) 
-
-- Docker setup.
+and I suggest to use ubuntu boot disk.
+- Docker setup on Ubuntu.
   - [Docker Setup](startup/docker.md)
 
 
 ### How to run
 
-- Airflow & dbt - [Setup](airflow/airflow.md)
+- Airflow & dbt - [Setup](airflow/README.md)
 - Google Pub/Sub - [Setup](setup/pubsub.md)
 
