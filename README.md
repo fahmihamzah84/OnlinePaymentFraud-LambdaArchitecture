@@ -28,6 +28,8 @@ We use the online payment fraud system dataset on Kaggle. This dataset can be ac
 - Language - [**Python**](https://www.python.org)
 
 ### Architecture
+#Batch Architecture
+![Data_Streaming](https://user-images.githubusercontent.com/83212789/209272508-59dbf8d0-61ae-4d1d-9ccc-72b7a70f2d82.png)
 
 
 ### Result
