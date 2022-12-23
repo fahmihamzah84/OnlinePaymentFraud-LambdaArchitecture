@@ -32,7 +32,7 @@ We use the online payment fraud system dataset on Kaggle. This dataset can be ac
 ![Data_Streaming](https://user-images.githubusercontent.com/83212789/209272508-59dbf8d0-61ae-4d1d-9ccc-72b7a70f2d82.png)
 
 #### Stream Architecture
-
+![Data_Streaming drawio](https://user-images.githubusercontent.com/83212789/209273097-026dcb7b-a070-470a-bbdb-474c23a8e490.png)
 
 ### Result
 
