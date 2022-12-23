@@ -36,6 +36,10 @@ We use the online payment fraud system dataset on Kaggle. This dataset can be ac
 
 ### Result
 The result of this end to end data pipeline project is the dashboard to check if the transaction was healthy or not.
+You can check our dashboard in this link below:
+https://datastudio.google.com/reporting/85df6c5e-d1ba-4bbf-a5ef-8cce3aa15422
+
+
 <img width="764" alt="Dashboard" src="https://user-images.githubusercontent.com/83212789/209299445-bca44f9c-5573-47eb-bf26-b79d86be1c14.png">
 
 ## Setup
