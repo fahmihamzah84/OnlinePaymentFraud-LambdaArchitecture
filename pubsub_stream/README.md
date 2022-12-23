@@ -1,4 +1,6 @@
-This is a repository for final project of Data Fellowship 8: Data Engineer Fast Track as a stream processing using `Google PubSub`. The theme for this project is `Online Payment Fraud Detection`.To use this script you can foolow thr Pre-requisite and How to run :
+This is a repository for final project of Data Fellowship 8: Data Engineer Fast Track as a stream processing using `Google PubSub`. The theme for this project is `Online Payment Fraud Detection`.To use this script you can foolow thr Pre-requisite and Steps how to run :
+
+
 Pre-requisite:
 1. Google Cloud Platform account.
 2. Python 3.7 or later
