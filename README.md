@@ -36,6 +36,7 @@ We use the online payment fraud system dataset on Kaggle. This dataset can be ac
 
 ### Result
 The result of this end to end data pipeline project is the dashboard to check if the transaction was healthy or not.
+<img width="764" alt="Dashboard" src="https://user-images.githubusercontent.com/83212789/209299445-bca44f9c-5573-47eb-bf26-b79d86be1c14.png">
 
 ## Setup
 WARNING: You will be responsible for paying for all infrastructure setup. You can get $300 in credit by opening a new GCP account.
