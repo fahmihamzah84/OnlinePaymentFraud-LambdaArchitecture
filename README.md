@@ -1,10 +1,19 @@
 # Online Fraud - Lambda Architecture
 
 ## Description
+Online payment systems have helped many people to make payments instantly. But on the other hand, it also increases payment fraud. That is why detecting online payment fraud is very important for financial technology companies to ensure that customers are not getting charged for the products and services they never pay. 
+
+So as data engineers, we need to build a data engineering infrastructure to turn raw data into dashboards that can later be used to see the company's transactions data health. 
+
 
 ### Objective
+- Design and build end to end data pipeline.
+- Created Dashboard to check the healthy transaction data.
+- Check Transaction Healthy or Not
+
 
 ### Dataset
+We use the online payment fraud system dataset on Kaggle. This dataset can be accessed on https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset 
 
 ### Tools stack
 
@@ -19,6 +28,7 @@
 - Language - [**Python**](https://www.python.org)
 
 ### Architecture
+
 
 ### Result
 
