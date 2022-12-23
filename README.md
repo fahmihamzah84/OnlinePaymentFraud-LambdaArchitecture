@@ -27,14 +27,17 @@ WARNING: You will be responsible for paying for all infrastructure setup. You ca
 
 ### Pre-requisites
 
-If you already have a Google Cloud account and a working terraform setup, you can skip the pre-requisite steps.
+If you already have a Google Cloud account and docker installed, you can skip the pre-requisite steps.
 
 - Google Cloud Platform. 
   - [GCP Account and Access Setup](setup/gcp.md)
   - [gcloud alternate installation method - Windows](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_1_basics_n_setup/1_terraform_gcp/windows.md#google-cloud-sdk)
 
-- Docker 
-  - [Install Docker on your VM](https://docs.docker.com/engine/install/)
+- After GCP account created, you can create a [new instances](https://cloud.google.com/compute/docs/instances/create-start-instance) 
+
+- Docker setup.
+  - [Docker Setup](startup/docker.md)
+
 
 ### How to run
 

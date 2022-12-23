@@ -9,7 +9,7 @@ We'll set up Airflow on a dedicated compute instance of Docker. dbt is configure
   cd OnlinePaymentFraud-LambdaArchitecture
   ```
 
-- Move the service account json file from local to the VM machine in `~/.google/credentials/` directory. To prevent the dags from failing, make sure the file is named "google credentials.json"
+- Move the service account json file from local to the VM machine in `~/.google/credentials/` directory. To prevent the dags from failing, make sure the file is named "google_credentials.json"
 
 - Set the evironment variables on Airflow/.env file
 
