@@ -8,7 +8,7 @@ SELECT
             NewBalanceReceiver - PrevBalanceReceiver AS BalanceDiff)) AS trx
 
 FROM 
-    {{ref ('stg_onlinepayment')}}
+    {{source('stage_online', 'stg_onlinepayment')}}
 GROUP BY 
     IdReceiver,
     Fraud

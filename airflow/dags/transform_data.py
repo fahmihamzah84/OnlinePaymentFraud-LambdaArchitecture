@@ -17,7 +17,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id = 'transform_ddata',
+    dag_id = 'transform_data',
     default_args = default_args,
     description = 'Transform data on bigquery',
     schedule_interval="30 0 * * *",
@@ -34,7 +34,7 @@ with DAG(
     )
     initiate_staging_task = BashOperator(
         task_id = "initiate_staging_task",
-        bash_command = "cd /dbt && dbt deps && dbt run --select stg_onlinepayment --profiles-dir . --target prod"
+        bash_command = "cd /dbt && dbt deps && dbt run --select stg_onlinepayment --profiles-dir . --target stg"
     )
     transform_task = BashOperator(
         task_id = "transform_task",

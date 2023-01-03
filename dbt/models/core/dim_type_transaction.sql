@@ -10,4 +10,5 @@ SELECT
         when type_id =  5 then 'DEBIT'
     end AS payment_type
 
-FROM {{ref ('stg_onlinepayment')}}
+FROM 
+    {{source('stage_online', 'stg_onlinepayment')}}

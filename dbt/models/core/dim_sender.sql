@@ -8,7 +8,7 @@ SELECT
             NewBalanceSender - PrevBalanceSender AS BalanceDiff)) AS trx
 
 FROM 
-    {{ref ('stg_onlinepayment')}}
+    {{source('stage_online', 'stg_onlinepayment')}}
 GROUP BY 
     IdSender,
     Fraud

@@ -10,4 +10,5 @@ SELECT
     Fraud,
     type_id
 
-FROM {{ref ('stg_onlinepayment')}}
+FROM 
+    {{source('stage_online', 'stg_onlinepayment')}}

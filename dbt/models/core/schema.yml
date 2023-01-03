@@ -1,6 +1,13 @@
 
 version: 2
 
+sources: 
+  - name: stage_online
+    database: iykra-fahmi
+    schema: onlinepayment_stg
+    tables: 
+      - name: stg_onlinepayment
+
 models:
   - name: fact_fraud
     description: "Fact table"

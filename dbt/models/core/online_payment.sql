@@ -10,4 +10,4 @@ SELECT
     NewBalanceReceiver,
     FlaggedFraud
 FROM 
-    {{ ref('stg_onlinepayment') }}
+    {{source('stage_online', 'stg_onlinepayment')}}

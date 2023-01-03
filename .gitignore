@@ -13,3 +13,4 @@ snap/
 .bash_logout
 .bashrc
 .gitconfig
+airflow/dags/__pycache__
