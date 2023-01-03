@@ -1,15 +1,14 @@
-Welcome to your new dbt project!
-
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+Here's the lineage look like
+![lineage](../images/lineage.png)
+  
+We're using Star Schema on our data modelling.
+- Dimensional Table:
+  - dim_fraud
+  - dim_receiver
+  - dim_sender
+  - dim_type_transactio
+  - online_payment
+- Fact Table:
+  - fact_fraud
+    - Partitioning:
+        - Data is partitioned by day using the timestamp column.
